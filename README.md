@@ -7,7 +7,7 @@ _Edit Application Pool
 _Name: mvc
 _.NET CLR version: No Managed Code
 _Managed pipeline mode: Integrated
-_/Start application pool immediately
+_-[x]Start application pool immediately
 
 ###Sites > mvc
 _Bindings...
