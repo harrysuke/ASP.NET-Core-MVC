@@ -31,3 +31,10 @@ Add below codes to your web.config
 	</environmentVariables>
 </aspNetCore>
 ```
+
+### How to update changes to Github
+- git init
+- git status
+- git add .
+- git commit -m 'SQL commit'
+- git push origin main
