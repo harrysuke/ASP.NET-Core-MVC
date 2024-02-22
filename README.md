@@ -15,7 +15,7 @@
 - Type: **http**
 - IP address: **All Unassigned (*)**
 - Port: **82**
-- Host name: *****
+- Host name: **(*)**
 
 ### web.config
 > <aspNetCore processPath="dotnet" arguments=".\mvc.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="inprocess">
