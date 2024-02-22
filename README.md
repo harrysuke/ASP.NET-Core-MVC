@@ -18,6 +18,7 @@
 - Host name: **(*)**
 
 ### web.config
+Add below codes to your web.config
 ```
 <aspNetCore processPath="dotnet" arguments=".\mvc.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="inprocess">
 	<environmentVariables>
