@@ -3,19 +3,19 @@
 ##Instructions
 
 ###Internet Information Services (IIS) Manager
--Edit Application Pool
--Name: mvc
--.NET CLR version: No Managed Code
--Managed pipeline mode: Integrated
--/Start application pool immediately
+_Edit Application Pool
+_Name: mvc
+_.NET CLR version: No Managed Code
+_Managed pipeline mode: Integrated
+_/Start application pool immediately
 
 ###Sites > mvc
--Bindings...
--Edit Site Binding
--Type: http
--IP address: All Unassigned (*)
--Port: 82
--Host name: *
+_Bindings...
+_Edit Site Binding
+_Type: http
+_IP address: All Unassigned (*)
+_Port: 82
+_Host name: *
 
 ###web.config
 ><aspNetCore processPath="dotnet" arguments=".\mvc.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="inprocess">
