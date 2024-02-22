@@ -1,0 +1,14 @@
+USE booksDb;
+CREATE USER [IIS APPPOOL\mvc] FOR LOGIN [IIS APPPOOL\mvc];
+
+USE booksDb;
+GRANT EXECUTE ON OBJECT::dbo.BookViewAll TO [IIS APPPOOL\mvc];
+
+USE booksDb;
+GRANT EXECUTE ON OBJECT::dbo.BookViewById TO [IIS APPPOOL\mvc];
+
+USE booksDb;
+GRANT EXECUTE ON OBJECT::dbo.BookAdd TO [IIS APPPOOL\mvc];
+
+USE booksDb;
+GRANT EXECUTE ON OBJECT::dbo.BookDeleteById TO [IIS APPPOOL\mvc];
