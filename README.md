@@ -53,4 +53,4 @@ Add below codes to your web.config
 - git status
 - git add .
 - git commit -m 'SQL commit'
-- git push origin main
+- git push -o origin main
