@@ -7,7 +7,7 @@
 - Name: mvc
 - .NET CLR version: No Managed Code
 - Managed pipeline mode: Integrated
-- -[x]Start application pool immediately
+- -[/]Start application pool immediately
 
 ### Sites > mvc
 - Bindings...
