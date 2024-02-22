@@ -2,6 +2,11 @@
 
 ## Instructions
 
+### How to deploy ASP.NET Core MVC IIS
+1. Install the .NET Core Hosting Bundle
+2. Install the .NET Core SDK
+3. Restart IIS with iisreset
+
 ### Internet Information Services (IIS) Manager
 - Edit Application Pool
 - Name: **mvc**
