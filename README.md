@@ -2,6 +2,11 @@
 
 ## Instructions
 
+### How to create ASP.NET Core MVC in Visual Studio
+- start with creating BookViewModel.cs in your Models package.
+- list all required columns from your table.
+- Right-click Controllers > Add > Controller... > and choose [MVC Controller with views, using Entity Framework] to generate and scaffold all the CRUD web forms automatically.
+
 ### How to deploy ASP.NET Core MVC to IIS
 1. Install the .NET Core SDK
 2. Install the .NET Core Hosting Bundle
