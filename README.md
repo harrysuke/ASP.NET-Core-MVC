@@ -31,6 +31,17 @@ Add below codes to your web.config
 	</environmentVariables>
 </aspNetCore>
 ```
+### Create new user to SQL Server
+- Security > right click > New > Login...
+- Login name: **IIS APPPOOL\mvc**
+- [/] **Windows authentication**
+- Default database: **booksDb**
+- Server Roles > Server roles: **public**
+- User Mapping > Users mapped to the login: **booksDb**
+- User Mapping > Database role membership for booksDb: **public**
+- Status > Settings > Permission to connect to database engine: **Grant**
+- Status > Settings > Login: **Enabled**
+- Click OK
 
 ### How to update changes to Github
 - git init
