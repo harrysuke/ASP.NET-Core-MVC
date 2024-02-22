@@ -16,3 +16,10 @@ Sites > mvc
 -IP address: All Unassigned (*)
 -Port: 82
 -Host name: *
+
+web.config
+<aspNetCore processPath="dotnet" arguments=".\mvc.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="inprocess">
+			<environmentVariables>
+				<environmentVariable name="ASPNETCORE_ENVIRONMENT" value="Development" />
+			</environmentVariables>
+		</aspNetCore>
